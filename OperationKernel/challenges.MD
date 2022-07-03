@@ -26,3 +26,8 @@ Le message suivant est à déchiffrer "Bj.lsC1_T!iolatKsSA.eueg.{_PA.né..HT14}.
 Le fichier lié est un .wav indéchiffrable à l'oreille humaine. Le nom du fichier AudioSpectre.wav donne déjà un indice sur la nature de la résolution de la problématique, ainsi il est possible d'utiliser [un outil de création de spectrogramme à partir d'un fichier audio](https://convert.ing-now.com/audio-spectrogram-creator/). À partir de la, il convient de charger le fichier "AudioSpectre.wav" préalablement téléchargé, configuré l'image de sortie si souhaité, l'image est alors générée et le flag à récupérer : 
 
 ![2022-07-03 19_57_30-Audio Spectrogram Creator - Download _ convert ing-now com](https://user-images.githubusercontent.com/93680908/177051726-db3f6479-af7e-41ba-9ad5-a681dd781d18.png)
+
+#### Takazume 
+Il suffit de zoomer sur une zone de l'image HD téléchargée pour découvrir le flag ou une liste d'ingrédients pour faire des crêpes selon. 
+
+![2022-07-03 20_20_12-Takazume png ‎- Photos](https://user-images.githubusercontent.com/93680908/177052413-6592fdc1-bc03-430b-a173-25b02f14ffaa.png)
