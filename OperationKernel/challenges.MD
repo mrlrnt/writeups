@@ -23,5 +23,5 @@ Le message suivant est à déchiffrer "Bj.lsC1_T!iolatKsSA.eueg.{_PA.né..HT14}.
 
 ### Steganography 
 #### Audiospectre
-Le fichier lié est un .wav indéchiffrable à l'oreille humaine. À partir de la [base d'outil proposée](https://operation-kernel.fr/tools.php), (l'outil de création de spectrogramme à partir d'un fichier audio)[https://convert.ing-now.com/audio-spectrogram-creator/] vient naturellement à l'idée. À partir de la, il convient de charger le fichier "AudioSpectre.wav" préalablement téléchargé, configuré l'image de sortie si souhaité, l'image est alors générée et le flag à récupérer : 
+Le fichier lié est un .wav indéchiffrable à l'oreille humaine. À partir de la [base d'outil proposée](https://operation-kernel.fr/tools.php), [l'outil de création de spectrogramme à partir d'un fichier audio](https://convert.ing-now.com/audio-spectrogram-creator/( vient naturellement à l'idée. À partir de la, il convient de charger le fichier "AudioSpectre.wav" préalablement téléchargé, configuré l'image de sortie si souhaité, l'image est alors générée et le flag à récupérer : 
 ![2022-07-03 19_57_30-Audio Spectrogram Creator - Download _ convert ing-now com](https://user-images.githubusercontent.com/93680908/177051726-db3f6479-af7e-41ba-9ad5-a681dd781d18.png)
