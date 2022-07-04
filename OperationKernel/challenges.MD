@@ -1,3 +1,18 @@
+## Sommaire
+[Forensic](#forensic)  
+   [Research paper](#research-paper)  
+[Web](#web)  
+   [Research paper blog](#research-paper-blog)  
+[Crypto](#crypto)  
+   [Scytale](#scytale)  
+[Steganography](#steganography)  
+   [Audiospectre](#audiospectre)  
+    [Takazume](#takazume)  
+[Reverse](#reverse)  
+   [Cryptolocker](#cryptolocker)
+
+
+## Challenges
 ### Forensic
 #### Research paper 
 Pour retrouver le nom du scientifique à partir du .pdf à disposition : dans les propriétés du PDF, on obtient au niveau d'"Application" une URL : 
@@ -31,3 +46,27 @@ Le fichier lié est un .wav indéchiffrable à l'oreille humaine. Le nom du fich
 Il suffit de zoomer sur une zone de l'image HD téléchargée pour découvrir le flag ... ou une liste d'ingrédients pour faire des crêpes selon. 
 
 ![2022-07-03 20_20_12-Takazume png ‎- Photos](https://user-images.githubusercontent.com/93680908/177052413-6592fdc1-bc03-430b-a173-25b02f14ffaa.png)
+
+### Reverse
+#### Cryptolocker 
+Le fichier source est au [format ELF - Executable and Linkable Format](https://fr.wikipedia.org/wiki/Executable_and_Linkable_Format). En le lancant via terminal, on obtient : 
+
+![2022-07-04 21_38_54-Kali-Linux-2021 3-vbox-amd64  En fonction  - Oracle VM VirtualBox](https://user-images.githubusercontent.com/93680908/177209862-9a6aadf5-aaed-4d75-a924-afc48c4b5ad7.png)
+
+Le format ressemble à un codage en Base 64. L'outil [Cyberchef](https://gchq.github.io/CyberChef/) permet de le décoder (et de détecter aussi le format avec l'option "Magic"), cela nous donne une URL.
+
+![2022-07-04 22_21_33-Window](https://user-images.githubusercontent.com/93680908/177213149-faf09841-a459-4e06-b542-80e0205aae7a.png)
+
+L'URL mène vers une page de login avec username & password. 
+
+![2022-07-04 21_30_05-Window](https://user-images.githubusercontent.com/93680908/177210714-0cf4dd2c-807f-4621-8dc4-d8549a58b757.png)
+
+Rien de plus sur la page. Afin d'obtenir plus de données, tentative avec la commande **strings** permettant d'extraire les chaines de caractères imprimables sur le fichier Crypolocker initial. On voit ici un élément notable au niveau de "Enter the key to ecrypt files". Même procédure que précédemment, en passant à [Cyberchef](https://gchq.github.io/CyberChef/) l'élément on obtient l'username recherché et le mot de passe.
+
+![2022-07-04 21_26_55-Window](https://user-images.githubusercontent.com/93680908/177215280-82585e97-d4c5-438a-a225-53a83c1ebeb6.png)
+
+Après le login, le flag est à retrouver dans le partie "About" du site : 
+
+![2022-07-04 21_52_59-Window](https://user-images.githubusercontent.com/93680908/177210849-2656ce9f-1d09-44be-9010-e457b822a9c3.png)
+
+
