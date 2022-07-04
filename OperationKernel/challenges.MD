@@ -1,14 +1,14 @@
 ## Sommaire
-[Forensic](#forensic)  
+[**Forensic**](#forensic)  
    [Research paper](#research-paper)  
-[Web](#web)  
+[**Web**](#web)  
    [Research paper blog](#research-paper-blog)  
-[Crypto](#crypto)  
+[**Crypto**](#crypto)  
    [Scytale](#scytale)  
-[Steganography](#steganography)  
+[**Steganography**](#steganography)  
    [Audiospectre](#audiospectre)  
     [Takazume](#takazume)  
-[Reverse](#reverse)  
+[**Reverse**](#reverse)  
    [Cryptolocker](#cryptolocker)
 
 
